@@ -1,0 +1,128 @@
+================================================================
+BRIEF KLIEN — KOPI SENJA
+Meeting Date: Juni 2026
+================================================================
+
+IDENTITAS KLIEN
+---------------
+Nama Kedai     : Kopi Senja
+Owner          : Reza
+Konsep         : Slow living, estetik, cozy
+Target Market  : Anak muda 18–28 tahun
+Lokasi         : Jl. Kaliurang KM 7, Sleman, Yogyakarta
+Jam Buka       : Senin–Minggu, 10.00–22.00 WIB
+
+
+KONTAK
+------
+WhatsApp       : +62 812-3456-7890
+Email          : hello@kopisenja.id
+Instagram      : @kopisenja.jogja
+TikTok         : @kopisenja
+
+
+================================================================
+COPYWRITING
+================================================================
+
+TAGLINE UTAMA
+-------------
+"Waktu terbaik memang sore."
+
+HERO WELCOME TEXT
+-----------------
+"Selamat datang di Kopi Senja — tempat di mana waktu melambat,
+kopi terasa lebih hangat, dan sore selalu punya cerita."
+
+TENTANG KAMI
+------------
+Kopi Senja lahir dari keresahan sederhana: kenapa kita selalu
+terburu-buru? Sejak 2021, kami hadir di Jogja sebagai ruang
+ketiga — bukan rumah, bukan kantor, tapi tempat di mana lo
+boleh duduk lama, mikir pelan, dan menikmati secangkir kopi
+tanpa rasa bersalah.
+
+
+================================================================
+MENU & HARGA
+================================================================
+
+Senja Latte          — Rp 32.000
+Cold Brew Aren       — Rp 28.000
+Matcha Haze          — Rp 30.000
+Croissant Butter     — Rp 22.000
+
+
+================================================================
+TESTIMONI
+================================================================
+
+1. Arini R.   ★★★★★
+   "Tempatnya bikin betah banget, Cold Brew Aren-nya juara!"
+
+2. Dhika M.   ★★★★★
+   "Aesthetic abis, cocok buat WFC. WiFi kenceng juga."
+
+3. Sella T.   ★★★★
+   "Senja Latte-nya beda dari tempat lain, worth it!"
+
+4. Rama F.    ★★★★★
+   "Suasananya tenang, musiknya pas, harganya masuk akal."
+
+
+================================================================
+PALET WARNA
+================================================================
+
+Background Utama     : Krem Susu        #F5ECD7   : hsl(43, 58%, 90%)
+Aksen Primer         : Coklat Espresso  #4A2C2A   : hsl(7, 28%, 23%)
+Aksen Sekunder       : Hijau Sage       #8A9E7B   : hsl(98, 14%, 55%)
+Teks Utama           : Coklat Tua       #2E1B1B   : hsl(0, 26%, 14%)
+Teks Muted           : Krem Gelap       #C4A882   : hsl(38, 33%, 64%)
+CTA / Button         : Amber Hangat     #C8833A   : hsl(34, 56%, 50%)
+
+
+================================================================
+STRUKTUR HALAMAN (KEBUTUHAN WEBSITE)
+================================================================
+
+1. Landing Page / Hero Section
+2. Menu & Harga
+3. Tentang Kami
+4. Galeri Foto Kedai
+5. Testimoni
+6. Form Reservasi / Contact
+7. Info Lokasi & Jam Buka
+
+
+================================================================
+KESEPAKATAN PROJECT
+================================================================
+
+Deadline            : Maks. 1 bulan sejak kontrak ditandatangani
+Hasil Akhir         : File mentah dalam bentuk arsip (.zip)
+Hosting             : Opsional, konfirmasi terpisah + update harga
+
+Skema Revisi        :
+  - Revisi 1 & 2   : Sebelum project mencapai 50%
+  - Revisi 3       : Saat project mencapai 80%
+  (Total: 3x revisi, tidak dapat diakumulasi)
+
+Pembayaran          :
+  - DP 50%         : Dibayar di awal sebelum pengerjaan dimulai
+  - Pelunasan 50%  : Dibayar setelah project selesai & disetujui
+
+Komunikasi          : Via WhatsApp & Email (lihat kontak developer)
+Laporan             : Update berkala selama pengerjaan
+
+
+================================================================
+CATATAN TAMBAHAN
+================================================================
+
+- Vibe desain: warm, cozy, indie — hindari kesan korporat/kaku
+- Font: tidak kaku, humanist/serif atau rounded sans
+- Semua aset copy & warna sudah disepakati dalam meeting ini
+- Dokumen ini akan dilampirkan bersama invoice resmi
+
+================================================================
