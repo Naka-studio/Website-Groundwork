@@ -1,0 +1,32 @@
+/**
+* REUSABLE CLASSES 
+**/
+
+.container {
+  max-width: 1200px;
+  margin-inline: 1.5rem;
+	padding-top: 2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding-block: 5rem 1rem;
+}
+
+.section__title {
+  text-align: center;
+  font-size: var(--h1-font-size);
+  margin-bottom: 3rem;
+}
+
+.section__title span {
+  color: var(--first-color);
+}
+
+.main {
+  overflow: hidden;
+}

@@ -1,0 +1,21 @@
+@mixin blob {
+	width: 100px;
+    height: 100px;
+    background: linear-gradient(180deg, 
+    var(--first-color-alt) 20%, 
+    var(--first-color-light) 100%);
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(35px);
+    z-index: -1;
+    animation: animateBlob 5s linear infinite;
+}
+
+@keyframes animateBlob{
+    0%{
+      transform: rotate(0);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+}
