@@ -1,0 +1,269 @@
+/* ===================== FONTS IMPORT ===================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Unbounded:wght@200..900&display=swap');
+
+/* ===================== VARIABLES ===================== */
+:root {
+  --hue: 255;
+
+  --first-color:					 hsl(var(--hue), 60%, 64%);
+  --first-color-alt:			 hsl(var(--hue), 80%, 56%);
+  --first-color-alt-2:		 hsl(var(--hue), 60%, 56%);
+  --first-color-light:		 hsl(var(--hue), 60%, 74%);
+
+  --title-color:				 hsl(240, 8%, 95%);
+  --text-color:					 hsl(240, 8%, 70%);
+  --text-color-light:		 hsl(240, 8%, 50%);
+
+  --body-color:					 hsl(240, 100%, 2%);
+  --container-color:		 hsl(240, 8%, 6%);
+
+	/*====== Font & Typography ======*/
+	--body-font:						 "Montserrat", sans-serif;
+	--main-font:						 "Unbounded", sans-serif;
+	--alter-font:						 arial;
+
+	--biggest-font-size:		 3rem;
+	--bigger-font-size:			 2.75rem;
+	--h1-font-size:					 2.25rem;
+	--h2-font-size:					 1.5rem;
+	--h3-font-size:					 1.25rem;
+	--h4-font-size:					 1.15rem;
+	--normal-font-size:			 1rem;
+	--small-font-size:			 0.875rem;
+	--smaller-font-size:		 0.813rem;
+
+	--font-regular:					 400;
+	--font-medium:					 500;
+	--font-semi-bold:				 600;
+	--font-bold:						 700;
+	
+	/*====== Layout & Layer ======*/
+	--header-height:				 3.5rem;
+
+	--btn-padding-sm:				 0.25rem 0.5rem;
+	--btn-padding-reg:			 0.5rem 1rem;
+	--btn-padding-md:				 1rem 1.25rem;
+	--btn-padding-lrg:			 1.25rem 1.5rem;
+
+	--small-radius:					 4px;
+	--regular-radius:				 8px;
+	--medium-radius:				 16px;
+	--large-radius:					 32px;
+	--circle-radius:				 50px;
+
+	--z-normal:							 10;
+	--z-overlay:						 25;
+	--z-navbar:							 50;
+	--z-tooltip:						 100;
+	--z-toast:							 200;
+	
+}
+	/* ===================== RESPONSIVE TYPOGRAPHY ===================== */
+@media screen and (min-width: 1150px) {
+  :root {
+    --biggest-font-size:	 4rem;
+    --bigger-font-size:		 3rem;
+    --h1-font-size:				 2.5rem;
+    --h2-font-size:				 2rem;
+    --h3-font-size:				 1.75rem;
+    --h3-font-size:				 1.5rem;
+    --normal-font-size:		 1.25rem;
+    --small-font-size:		 0.975rem;
+    --smaller-font-size:	 0.913rem;
+  }
+}
+/* ===================== BASE RESET ===================== */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+}
+
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+h1, h2, h3, h4 {
+  color: var(--title-color);
+  font-family: var(--main-font);
+  font-weight: var(--font-bold);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===================== REUSABLE CLASSES ===================== */
+.container {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding-block: 5rem 1rem;
+}
+
+.section__title {
+  text-align: center;
+  font-size: var(--h1-font-size);
+  margin-bottom: 3rem;
+}
+
+.section__title span {
+  color: var(--first-color);
+}
+
+.main {
+  overflow: hidden;
+}
+
+/* ===================== BUBBLE ===================== */
+/* Bubble animate */
+.bubble-animate{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(180deg, 
+    var(--first-color-alt) 20%, 
+    var(--first-color-light) 100%);
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(35px);
+    z-index: -1;
+    animation: animateBlob 5s linear infinite;
+}
+
+@keyframes animateBlob{
+    0%{
+      transform: rotate(0);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+}
+/* Bubble */
+.bubble{
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(180deg,
+  var(--first-color) 0%,
+  var(--first-color-light) 100%);
+  border-radius: 50%;
+  filter: blur(50px);
+  position: absolute;
+  z-index: -1;
+}
+
+/* ===================== CUSTOM CURSOR ===================== */
+
+/* ===================== NAVIGATION BAR ===================== */
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: linear-gradient(180deg,
+    var(--body-color) 60%);
+	z-index: var(--z-navbar);
+}
+
+.bubble-animate {
+	top: -3rem;
+	left: -3rem;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding-block: 1rem;
+}
+
+.navbar__brand {
+	font-family: var(--main-font);
+	color: var(--title-color);
+	font-weight: var(--font-bold);
+	align-self: flex-start;
+	transition: color .4s ease-in-out;
+}
+
+.navbar__brand:hover {
+	color: var(--first-color);
+}
+
+.navbar__menu-links {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	row-gap: .5rem;
+}
+
+.navbar__menu-link {
+	color: var(--title-color);
+	font-family: var(--main-font);
+	font-weight: var(--font-semi-bold);
+	font-size: var(--small-font-size);
+	transition: all .4s ease-in;
+}
+
+.navbar__menu-link:hover {
+	color: var(--first-color);
+	text-shadow: 0 8px 15px var(--first-color);
+}
+
+/*Active Link*/
+.active-link {
+	color: var(--first-color);
+	text-shadow: 0 8px 15px var(--first-color);
+}
+
+/* ===================== BASE RESET ===================== */
+.hero {
+	position: relative;
+}
+
+.hero__container {
+	position: relative;
+	padding-top: calc(var(--header-height) + 1rem);
+	row-gap: 3rem;
+}
+
+.hero__greeting {
+	font-size: var(--h2-font-size);
+	font-weight: var(--font-regular);
+	color: var(--first-color);
+}
+/* ===================== BASE RESET ===================== */
+/* ===================== BASE RESET ===================== */
+/* ===================== BASE RESET ===================== */
+/* ===================== BASE RESET ===================== */
