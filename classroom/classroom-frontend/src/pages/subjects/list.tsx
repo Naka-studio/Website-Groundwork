@@ -55,7 +55,7 @@ const SubjectsList = () => {
           cell: ({ getValue }) => (
             <span className="text-foreground">{getValue<string>()}</span>
           ),
-          filterFN: "includesString",
+          filterFn: "includesString",
         },
         {
           id: "department",
